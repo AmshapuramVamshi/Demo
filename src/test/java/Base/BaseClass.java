@@ -50,6 +50,9 @@ public class BaseClass {
         extentReports.setSystemInfo("OS", System.getProperty("os.name"));
         extentReports.setSystemInfo("Java Version", System.getProperty("java.version"));
         extentReports.setSystemInfo("Browser Name", "Chrome");
+
+
+        System.out.println("Test Commited");
     }
 
 
