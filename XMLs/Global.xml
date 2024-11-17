@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Dummy">
+    <listeners>
+        <listener class-name="Base.ExtentReportManagerWithListeners"/>
+    </listeners>
+    <test name="Handling Alerts">
+        <classes>
+            <class name="Tests.TestClass">
+                <methods>
+                    <include name="handlingAlertsOnWebPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Handling Web Tables">
+        <classes>
+            <class name="Tests.TestClass">
+                <methods>
+                    <include name="handlingWebTablesOnWebPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Handling inputs">
+        <classes>
+            <class name="Tests.TestClass">
+                <methods>
+                    <include name="handlingInputFields"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

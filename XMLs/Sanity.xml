@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite" parallel="false" verbose="1">
+    <listeners>
+        <listener class-name="Base.ExtentReportManagerWithListeners"/>
+    </listeners>
+    <test name="MyTest">
+        <classes>
+            <class name="Tests.TestClass">
+                <methods>
+                    <include name="handlingWebTablesOnWebPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
