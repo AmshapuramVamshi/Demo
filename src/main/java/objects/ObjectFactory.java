@@ -1,10 +1,10 @@
-package PageObjects;
+package root;
 
-import Base.BaseClass;
-import Pages.Alerts;
-import Pages.WebTables;
-import Pages.InputFields;
-import Utilities.Reusable;
+import base.BaseClass;
+import pages.Alerts;
+import pages.WebTables;
+import pages.InputFields;
+import utilities.Reusable;
 
 public class ObjectFactory extends BaseClass {
     public Reusable reusable;
